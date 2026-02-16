@@ -1,0 +1,9 @@
+countries={"India":'Delhi',"Russia":"Moscow","China":'Beijing',"Pakistan":'Islamabad',"Japan":'Tokyo'}
+print(countries)
+print(countries['India'])
+countries["England"]='London'
+print(countries)
+countries["Japan"]='Shibuya'
+print(countries)
+countries.pop("China")
+print(countries)
